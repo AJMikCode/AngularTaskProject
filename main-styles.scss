@@ -1,0 +1,31 @@
+// This is where we put global styles and change variable values
+
+//import fonts (Lato and Nunito)
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+$crimson: #DC143C;
+$dark-red: #8B0000;
+$light-coral: #F08080;
+$maroon: #800000;
+
+$light: #f8f8f8;
+
+//Update Bulmas Global Variables
+$family-sans-serif: 'Nunito', sans-serif;
+$primary: $crimson;
+
+$link: $light-coral;
+
+//Update some of bulmas component variables
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+//set custom global styles(applied to whole app)
+html {
+    background: linear-gradient(to right top, $maroon, $light-coral);
+}
+html, body{
+    height: 100%;
+}
